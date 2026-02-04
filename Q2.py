@@ -1,5 +1,4 @@
-#Write a program to calculate area of rectangle based on length and breadth.
-a=int(input("enter the lenght:"))
-b=int(input("enter the breadth:"))
-arearect= a*b
-print(f"Area of rectangle = {arearect}")
+# Convert temp from Celsius to Fahrenheit. f=((9/5)*cel)+32
+cel=float(input("Enter the celsius :"))
+far=((9/5)*cel)+32
+print(f'Fahrenheit={far}')

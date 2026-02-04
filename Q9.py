@@ -1,5 +1,7 @@
-#Write a program to enter base and height of a triangle and find its area.
-base=int(input("enter base:"))
-height=int(input("enter height:"))
-area=0.5*base*height
-print(f"Area of triangle = {area}")
+# Write a program to swap two numbers without using third variable.
+a=10
+b=20
+print("before elm",a,b)
+
+a,b=b,a
+print("After swap elm",a,b)

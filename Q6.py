@@ -1,5 +1,7 @@
-#Write a Program to input two angles from user and find third angle of the triangle.
-a=float(input("Enter first angles:"))
-b=float(input("Enter Second:"))
-thirda=180-(a+b)
-print(f"Third angle is ={thirda}")
+#WAP to calculate total salary of employee based on basic, da=10% of basic, ta=12% of basic, hra=15% of basic.
+basicsal=float(input("Enter the basic salary ="))
+da=basicsal*0.1
+ta=basicsal*.12
+hra=basicsal*.15
+total_Sal=basicsal+da+ta+hra
+print(f'Total salary ={total_Sal}')

@@ -1,7 +1,7 @@
-# Write a program to calculate area of an equilateral triangle.
-base=int(input("enter base:"))
-height=int(input("enter height:"))
-area=base*height
-equarea=((3**0.5)/4)*(area**2)
-print(f'Equilateral triangle = {equarea}')
-
+# Write a program to reverse three-digit number.
+a=int(input('enter three digit number:'))
+hund=a//100
+ten=(a//10)%10
+unit=a%10
+sum=(unit*100)+hund+(ten*10)
+print(f'reverse three digits ={sum}')

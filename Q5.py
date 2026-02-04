@@ -1,9 +1,6 @@
-# Write a program to enter P, T, R and calculate Compound Interest.
-# Write a program to enter P, T, R and calculate simple Interest.
-p=float(input("Enter Principal amount:"))
-r=float(input("Enter Rate:"))
-t=float(input("enter no. fo years:"))
-amt=p*((1+r/100)**t)
-ci=amt-p
-print(f'Compound Interest = {ci}')
-print(f"Total Amount = {amt}")
+# WAP to calculate selling price of book based on cost price and discount.
+cost_price=float(input("enter price of book:"))
+discount=float(input("enter discount percentage:"))
+dis_amt=(cost_price*discount)/100
+selling_price=cost_price-dis_amt
+print(f'selling price of the book ={selling_price}')

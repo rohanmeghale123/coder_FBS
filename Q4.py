@@ -1,6 +1,13 @@
-# Write a program to enter P, T, R and calculate simple Interest.
-p=float(input("Enter Principal amount:"))
-r=float(input("Enter Rate:"))
-t=float(input("enter no. fo years:"))
-si=(p*r*t)/100
-print(f'Simple Interest = {si}')
+# WAP to calculate area of triangle and rectangle
+
+#area of triangle
+base=int(input("enter base:"))
+height=int(input("enter height:"))
+area_tri=0.5*base*height
+print(f'Area of triangle ={area_tri}')
+
+#area of rectangle
+a=int(input("enter the lenght:"))
+b=int(input("enter the breadth:"))
+arearect= a*b
+print(f"Area of rectangle = {arearect}")

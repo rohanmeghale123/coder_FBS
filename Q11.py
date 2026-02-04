@@ -1,5 +1,12 @@
-# Find the area and circumference of circle. 
-r=int(input('Enter radius:'))
-area=3.14*(r**2)
-circum=2*3.14*r
-print(f'Area ={area},Circumference ={circum}')
+#Write a program to accept an integer amount from user and tell minimum number of notes needed for representing that amount.
+amount = int(input("Enter the amount: "))
+
+notes = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
+
+print("Minimum number of notes:")
+
+for note in notes:
+    if amount >= note:
+        count = amount // note
+        amount = amount % note
+        print(f"{note} : {count}")
